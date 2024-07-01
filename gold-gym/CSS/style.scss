@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.container{
+    width: 100%;
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+.head{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../IMG/bg-pict.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    // z-index: -1;
+    // filter: brightness(0.8);
+}
+
+
+@import "_navbar.scss";
+@import "_header.scss";
+
